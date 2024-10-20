@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: salmon;
+    margin-bottom: 10px;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(100, 180, 80);
+    margin-bottom: 10px;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(78, 175, 170);
+    margin-bottom: 10px;
+}

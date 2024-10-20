@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(33, 183, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+background-color: aqua;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h1::after{
+    content: ' Chauhan';
+    color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+h1::before{
+    content: 'Mr. ';
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(150, 202, 202);
+}
